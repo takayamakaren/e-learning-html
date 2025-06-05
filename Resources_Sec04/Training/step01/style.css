@@ -1,0 +1,24 @@
+.container{
+    display: grid;
+    width:800px;
+    grid-template-columns: 180px 1fr;
+    grid-template-rows: 120px 90px;
+}
+
+.itemA{
+    grid-column: 1 / 2;
+    grid-row: 1 / 3;
+    background-color: aqua;
+}
+
+.itemB{
+    grid-column: 2 / 3;
+    grid-row: 1 / 2;
+    background-color: beige;
+}
+
+.itemC{
+    grid-column: 2 / 3;
+    grid-row: 2 / 3;
+    background-color: brown;
+}
